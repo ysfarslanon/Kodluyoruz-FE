@@ -1,0 +1,19 @@
+h1[class="color-Purple"]{
+    text-align: center;
+}
+.color-Orange{
+    color: orange;
+}
+.color-Purple{
+    color: purple;
+}
+.color-Red{
+    color: red;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
