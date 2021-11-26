@@ -115,3 +115,10 @@ header a:hover{
 #boxes img{
     height: 100px;
 }
+
+footer{
+    background-color: var(--orange);
+    color: var(--white);
+    text-align: center;
+    padding: 20px;
+}
