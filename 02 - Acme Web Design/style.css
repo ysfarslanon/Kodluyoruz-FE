@@ -102,3 +102,16 @@ header a:hover{
     height: 15px;
     width: 250px;
 }
+
+#boxes{
+    margin:20px 0;
+}
+.box{
+    float: left;
+    text-align: center;
+    padding: 20px;
+    width: 30%;
+}
+#boxes img{
+    height: 100px;
+}
