@@ -2,6 +2,7 @@
     --orange:#E8491D;
     --dark:#35424A;
     --white:#FFFFFF;
+    --gray:#E0DADA;
 }
 
 body{
@@ -54,4 +55,24 @@ header #brand h1{
 }
 #brand span{
     color: var(--orange);
+}
+header a:hover{
+    color: var(--gray);
+    font-weight: bold;
+}
+
+#showcase{
+    background: url("img/assets/bg.jpg") no-repeat 0 0;
+    min-height: 400px;
+    background-size: cover;
+    text-align: center;
+    color: var(--white);
+}
+#showcase h1{
+    padding: 20px;
+    font-size: 50px;
+}
+#showcase p{
+    font-size: 20px;
+    margin-top: 100px;
 }
