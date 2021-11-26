@@ -20,6 +20,13 @@ ul{
     margin: 0;
     padding: 0;
 }
+.btn{
+    background-color: var(--orange);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
 
 header{
     background-color: var(--dark);
@@ -75,4 +82,23 @@ header a:hover{
 #showcase p{
     font-size: 20px;
     margin-top: 100px;
+}
+
+#subscribe{
+    background: var(--dark);
+    min-height: 100px;
+    color: var(--white);
+}
+#subscribe h1{
+    float: left;
+    font-size: 30px;
+}
+#subscribe form{
+    float: right;
+    margin-top: 20px;
+}
+#subscribe input[type="email"]{
+    padding: 10px;
+    height: 15px;
+    width: 250px;
 }
