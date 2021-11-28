@@ -1,1 +1,1 @@
-# Kodluyoruz Hi-Kod FE Ödevlerin bulunduğu repository
+# Bootstrap ile web sitesi tasarım ödevi
