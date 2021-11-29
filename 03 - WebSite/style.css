@@ -1,0 +1,26 @@
+
+.bg-orange{
+    background-color: #FDC044;
+}
+
+.jumbotron {
+    background-color: olive;
+    margin-bottom: 0;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+    background: url(/img/assets/bg-coffee.jpg) bottom center no-repeat;
+    object-fit: cover;
+  }
+  .jumbotron p {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .jumbotron-heading {
+    font-weight: 300;
+  }
+  .jumbotron .container {
+    max-width: 40rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    color: #fff;
+  }
