@@ -1,26 +1,42 @@
+.bg-orange {
+  background-color: #fdc044;
+}
 
-.bg-orange{
-    background-color: #FDC044;
+.bg-img-coffee {
+  background: url(img/assets/bg-coffee.jpg) center no-repeat !important;
 }
 
 .jumbotron {
-    background-color: olive;
-    margin-bottom: 0;
-    padding-bottom: 6rem;
-    padding-top: 6rem;
-    background: url(/img/assets/bg-coffee.jpg) bottom center no-repeat;
-    object-fit: cover;
-  }
-  .jumbotron p {
-    color: #fff;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-  .jumbotron-heading {
-    font-weight: 300;
-  }
-  .jumbotron .container {
-    max-width: 40rem;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 2rem;
-    color: #fff;
-  }
+  background-color: olive;
+  background: url(https://picsum.photos/id/7/1980/1280) center no-repeat;
+  height: 500px;
+  top: 10%;
+  width: 100%;
+  border-bottom: #fdc044 5px solid;
+  padding-top: 50px; /*!!!*/
+}
+.jumbotron p {
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.jumbotron-heading {
+  font-weight: 300;
+  font-weight: bold;
+}
+.jumbotron .container {
+  max-width: 40rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+  top: 500px;
+  color: #fff;
+}
+
+section a {
+  color: #000;
+  font-size: large;
+  font-size: 50px;
+  text-decoration: none;
+}
+p a:hover {
+  color: #fdc044 !important;
+}

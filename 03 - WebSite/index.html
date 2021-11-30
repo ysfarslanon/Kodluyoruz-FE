@@ -11,12 +11,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Web site</title>
+    <title>Rehberim</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-orange">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Rehberim</a>
+        <a class="navbar-brand fw-bold" href="index.html">Rehberim</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -31,13 +31,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Kahve</a>
+              <a class="nav-link text-white" href="coffee.html">Kahve</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Şehir</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link text-white" href="city.html">Şehir</a>
             </li>
           </ul>
         </div>
@@ -46,143 +43,62 @@
 
     <section class="jumbotron text-center">
       <div class="container">
-        <h1 class="jumbotron-heading">Kahve çeşitleri nelerdir?</h1>
+        <h1 class="jumbotron-heading">Rehberim Nedir?</h1>
         <p class="lead">
-          Gün içerisinde arkadaşlarınızla oturup sohbet etmek için gittiğiniz
-          bir kafede, menüyü istediğinizde onlarca kahve çeşidiyle
-          karşılaşabilirsiniz. Bu kahvelerin adını bilmenizin yanı sıra
-          içeriğini, nasıl yapıldığını, içerisine ne konulduğunu bilmek,
-          vereceğiniz siparişin damak tadınızı karşılamada daha doğru bir tercih
-          yapmanıza olanak tanıyacaktır. Fakat ilk olarak kahve çeşitlerini
-          değil kahve çekirdeklerini tanımakta yarar var.
+          Rehberim belirli konularda bilgi vermek için oluşturulmuştur.
+        </p>
+        <p class="lead">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta quas
+          quia itaque, perspiciatis facilis cumque? Voluptate provident nisi
+          fuga aperiam.
         </p>
       </div>
     </section>
 
-    <section class="p-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-6">
-            <h2>Espresso</h2>
-            <p class="lead">
-              Sıkıştırılmış ve ince öğütülmüş kahveyle birlikte 90
-              dereceliksuyun 30 saniye boyunca, 9 bar basınçla demlenmesiyle
-              hazırlanıyor. Espresso, 30 mL’lik shot bardaklarında servis
-              edilir. Elektrikli makinelerin yanı sıra ocak üstünde moka pot
-              aracılığıyla da Espresso hazırlayabilirsiniz. İtalyanlara özgü
-              olan Espresso, diğer birçok kahvenin de ana malzemesini
-              oluşturuyor.
-            </p>
-          </div>
-          <div class="col-6">
-            <img
-              src="img/assets/espresso.jpg"
-              alt=""
-              srcset=""
-              height="300"
-              width="100%"
-            />
-          </div>
-        </div>
-      </div>
+    <section class="container-fluid bg-dark text-white p-3 mb-4">
+      <h2 class="text-center display-1">Konular</h2>
     </section>
 
-    <section class="bg-dark text-white p-5">
+    <section class="py-5">
       <div class="container">
         <div class="row">
           <div class="col-6">
-            <img
-              src="img/assets/americano.jpg"
-              alt=""
-              srcset=""
-              height="300"
-              width="100%"
-            />
+            <img src="img/assets/americano.jpg" alt="" class="img-thumbnail" />
           </div>
-          <div class="col-6">
-            <h2>Americano</h2>
+          <div class="col-6 p-3">
+            <p class="lead"><a href="coffee.html">Kahveler</a></p>
+            <p class="lead">Kahve türlerinin açıklandığı sayfa</p>
             <p class="lead">
-              Espresso’dan daha yumuşak, filtre kahveden ise daha sert içimi
-              olan Americano kısaca, Espresso’nun sıcak suyla seyreltilmiş
-              halidir. Americano’nun sertlik miktarını, Espresso miktarı,
-              Espresso içerisinde bulunan kahve miktarı ve su miktarı ile
-              rahatça ayarlayabilirsiniz. Americano, adından kaynaklı olarak
-              Amerika Birleşik Devletleri’nde içilmeye başlandığı düşünülebilir.
-              Fakat hikaye biraz daha farklı. 2. Dünya Savaşı sırasında Amerikan
-              askerleri, Espresso ile tanışırlar. Kendilerine yoğun, sert ve az
-              gelen Espresso’ya sıcak su ekleyerek kendi damak tatlarına uygun
-              hale getirirler. Böylelikle farkında bile olmadan günümüze kadar
-              ulaşmayı başaran Americano’nun temellerini atarlar.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+              commodi ex quaerat qui unde nesciunt.
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="p-5">
+    <section class="py-2 bg-dark py-5">
       <div class="container">
         <div class="row">
-          <div class="col-6">
-            <h2>Mocha</h2>
+          <div class="col-6  text-white">
+            <p class="lead"><a href="city.html" class="text-white">Şehirler</a></p>
+            <p class="lead">Şehirleri anlatan sayfa</p>
             <p class="lead">
-              Adını Yemen’de bulunan Mucha Limanı’ndan alan Mocha, 1/3 oranında
-              Espresso ile 2/3 oranında süt ile hazırlanır. Latte ve
-              Cappuccino’dan farkı ise Mocha’da çikolata şurubu veya tozu
-              bulunuyor. Bardağın içerisine çikolata şurubu veya tozu
-              koyuyorsunuz. Ardından sıcak sütü ilave edip, son olarak da
-              oldukça yavaş bir biçimde, bardağın kenarından Espresso’yu
-              ekliyorsunuz. Çırptığınız sütten elde ettiğiniz süt köpüğünü de
-              kahveye eklediğinizde Mocha, servise hazır hale geliyor. Farklı
-              tatlar arayanlar kahvesine, vanilya şurubu veya karamel gibi
-              aromalar da katabilirler.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat
+              et non tempore est aliquid tempora accusamus numquam amet
+              voluptatem cupiditate?
             </p>
+            
           </div>
-          <div class="col-6">
-            <img
-              src="img/assets/mocha.jpg"
-              alt=""
-              srcset=""
-              height="300"
-              width="100%"
-            />
+          <div class="col-6 p-3">
+            <img src="img/assets/cities.jpg" alt="" class="img-thumbnail" />
           </div>
         </div>
       </div>
     </section>
 
-    <section class="bg-dark text-white p-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-6">
-            <img
-              src="img/assets/frappe.jpg"
-              alt=""
-              srcset=""
-              height="300"
-              width="100%"
-            />
-          </div>
-          <div class="col-6">
-            <h2>Frappe</h2>
-            <p class="lead">
-              Frappe ilk olarak 1957 senesinde Nestle’nin çocuklara yönelik
-              hazırladığı çikolatalı içecek sayesinde ortaya çıkmıştır.
-              Yunanistan’da yapımına başlanan Frappe için hazır kahveye sıcak
-              değil, soğuk su ekleniyor. 2 tatlı kaşığı çözünebilir kahve, şeker
-              ve 3 yemek kaşığı soğuk suyu, shaker veya mikser yardımıyla
-              karıştırın. Elde ettiğiniz karışımın yarısını uzunca bir bardağa
-              dökün. Üzerine 7 – 8 adet buz küpü ekleyin. Sonrasında soğuk süt
-              ve suyu ilave edin. Karışımdan kalan köpüğü de bardağın üzerine
-              eklediğinizde Frappe’niz hazır. Dilediğiniz takdirde içeceğinizi
-              bir miktar krema veya bir top dondurmayla zenginleştirebilirsiniz.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="bg-orange p-5 text-center">
-      <p class="lead">Copyright Arslanon</p>
+    <footer class="bg-orange p-3 text-center">
+      <p class="lead text-white fw-bold">Copyright Arslanon</p>
     </footer>
   </body>
   <script src="script.js"></script>
