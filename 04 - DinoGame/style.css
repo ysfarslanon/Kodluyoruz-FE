@@ -3,43 +3,55 @@
     margin: 0;
     overflow-x: hidden;
 }
+body{
+    background:linear-gradient(45deg, #FFccAA, #CCCCFF) no-repeat fixed;
+}
 
 .game{
-    width: 500px;
+    width: 700px;
     height: 200px;
-    border: 1px solid black;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
     margin: auto;
+    margin-top: 50px;
+    background-color: #fff;
 }
-#karakter{
+#character{
     width: 20px;
     height: 50px;
     background-color: red;
     position: relative;
     top: 150px;
+    left: 20px;
 }
 .animate{
-    animation: zipla 0.3s linear;
+    animation: jump 0.5s linear;
 }
-@keyframes zipla {
+@keyframes jump {
     0%{top: 150px;}
-    30%{top: 100px;}
-    70%{top: 100px;}
+    30%{top: 80px;}
+    50%{top: 80px;}
     100%{top: 150px;}
 }
 
-#blok {
+#block {
     background-color: blue;
     width: 20px;
     height: 20px;
     position: relative;
     top:130px;
-    left: 500px;
-    animation: blok 1s infinite linear;
+    left: 660px;
+    animation: block 3s infinite linear;
 }
-@keyframes blok{
-    0%{left: 500px}
+@keyframes block{
+    0%{left: 660px}
     100%{left: -20px}
 }
 p {
     text-align: center;
+    margin-top: 10px;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
 }

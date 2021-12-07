@@ -1,23 +1,40 @@
-var karakter = document.getElementById("karakter");
-var blok = document.getElementById("blok");
-var counter=0;
-function zipla(){
-    if(karakter.classList == "animate"){return}
-    karakter.classList.add("animate");
-    setTimeout(function(){
-        karakter.classList.remove("animate");
-    },400);
+// elements
+const character = document.getElementById("character");
+const block = document.getElementById("block");
+const scoreSpan = document.getElementById("scoreSpan");
+const highScoreSpan = document.getElementById("highScoreSpan");
+// variables
+let score = 0;
+let highScore = 0;
+
+function jump() {
+  if (character.classList == "animate") {
+    return;
+  }
+  character.classList.add("animate");
+  setTimeout(function () {
+    character.classList.remove("animate");
+  }, 600);
 }
-var checkDead = setInterval(function() {
-    let characterTop = parseInt(window.getComputedStyle(karakter).getPropertyValue("top"));
-    let blockLeft = parseInt(window.getComputedStyle(blok).getPropertyValue("left"));
-    if(blockLeft<20 && blockLeft>-20 && characterTop>=130){
-        blok.style.animation = "none";
-        alert("Game Over. score: "+Math.floor(counter/100));
-        counter=0;
-        blok.style.animation = "block 1s infinite linear";
-    }else{
-        counter++;
-        document.getElementById("scoreSpan").innerHTML = Math.floor(counter/100);
-    }
+
+
+var checkDead = setInterval(function () {
+  let characterTop = parseInt(
+    window.getComputedStyle(character).getPropertyValue("top")
+  );
+  let blockLeft = parseInt(
+    window.getComputedStyle(block).getPropertyValue("left")
+  );
+  if (blockLeft < 40 && blockLeft > 0 && characterTop >= 130) {
+    highScoreSpan.innerHTML = Math.floor(highScore/100);
+    block.style.animation = "none";
+    alert("Game Over. score: " + Math.floor(score / 100));
+    score = 0;
+    block.style.animation = "block 3s infinite linear";
+    
+} else {
+    score++;
+    highScore = score > highScore ? score : highScore;
+    scoreSpan.innerHTML = Math.floor(score / 100);
+  }
 }, 10);
