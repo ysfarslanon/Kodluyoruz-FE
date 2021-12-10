@@ -1,0 +1,42 @@
+body{
+    background:linear-gradient(20deg, #519259,#064635) no-repeat fixed;
+    color: whitesmoke;
+}
+.main{
+    height: auto;
+    width: 50%;
+    margin: auto;
+    /*background-color: #FFCCAA;*/
+    text-align: center;
+    padding: 10px;
+}
+input[type="text"]{
+    margin: 3px;
+    padding: 10px;
+    width: 50px;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    background-color: #F4EEA9;
+    color: #064635;
+}
+input[type="text"]:focus{
+    outline: none;/*Focus olduğunda border'i silmek için kullanıldı border:none; işe yaramadı*/
+}
+input[type="text"]:hover{
+    background-color: #ecd6ae;
+    cursor: pointer;
+}
+#btnReset{
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    background-color: #F4EEA9;
+    font-size: 20px;
+    font-weight: 600;
+    width: 150px;
+    color: #064635;
+}
