@@ -12,22 +12,21 @@
     <div class="main">
       <div class="greating">
         <h1>TIC TAC TOE</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
-          libero.
+        <p id="turnText">
+            Player X's turn
         </p>
       </div>
 
       <div class="game">
-        <input type="text" id="input1" readonly />
-        <input type="text" id="input2" readonly />
-        <input type="text" id="input3" readonly /><br />
-        <input type="text" id="input4" readonly />
-        <input type="text" id="input5" readonly />
-        <input type="text" id="input7" readonly /><br />
-        <input type="text" id="input6" readonly />
-        <input type="text" id="input8" readonly />
-        <input type="text" id="input9" readonly />
+        <input type="text" id="input1" readonly onclick="mark('input1'); whoWin();" />
+        <input type="text" id="input2" readonly onclick="mark('input2'); whoWin();" />
+        <input type="text" id="input3" readonly onclick="mark('input3'); whoWin();" /><br />
+        <input type="text" id="input4" readonly onclick="mark('input4'); whoWin();" />
+        <input type="text" id="input5" readonly onclick="mark('input5'); whoWin();" />
+        <input type="text" id="input6" readonly onclick="mark('input6'); whoWin();" /><br />
+        <input type="text" id="input7" readonly onclick="mark('input7'); whoWin();" />
+        <input type="text" id="input8" readonly onclick="mark('input8'); whoWin();" />
+        <input type="text" id="input9" readonly onclick="mark('input9'); whoWin();" />
       </div>
 
       <div class="detail">
