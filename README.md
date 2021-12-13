@@ -9,3 +9,5 @@
 [Ödev 4 - Dino Game](https://github.com/ysfarslanon/Kodluyoruz-FE/tree/master/04%20-%20DinoGame)
 
 [Ödev 5 - XOX Game](https://github.com/ysfarslanon/Kodluyoruz-FE/tree/master/05%20-%20XOX)
+
+[Ödev 6 - Emoji](https://github.com/ysfarslanon/Kodluyoruz-FE/tree/master/06%20-%20Emoji)
