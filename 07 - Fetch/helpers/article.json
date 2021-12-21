@@ -1,14 +1,17 @@
 [
     {
         "title": "Domates",
-        "body": "Kırmızı"
+        "body": "Kırmızı",
+        "img": "https://picsum.photos/id/237/200/300"
     },
     {
         "title": "Salatalık",
-        "body": "Yeşil"
+        "body": "Yeşil",
+        "img": "https://picsum.photos/id/27/200/300"
     },
     {
         "title": "Havuz",
-        "body": "Turuncu"
+        "body": "Turuncu",
+        "img": "https://picsum.photos/id/7/200/300"
     }
 ]
