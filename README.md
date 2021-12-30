@@ -11,3 +11,7 @@
 [Ödev 5 - XOX Game](https://github.com/ysfarslanon/Kodluyoruz-FE/tree/master/05%20-%20XOX)
 
 [Ödev 6 - Emoji](https://github.com/ysfarslanon/Kodluyoruz-FE/tree/master/06%20-%20Emoji)
+
+[Ödev 7 - Fetch API](https://github.com/ysfarslanon/Kodluyoruz-FE/tree/master/07%20-%20Fetch)
+
+[Ödev 8 - Module/Import/Export](https://github.com/ysfarslanon/Kodluyoruz-FE/tree/master/08)
